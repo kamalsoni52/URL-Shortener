@@ -18,7 +18,6 @@ const handleCreateShortURL = async (req, res) => {
     return res.status(200).render("home", {
         "shortUrl" : "localhost:8001/"+id
     })
-
 }
 
 const handleAnalytics = async (req,res) => {
